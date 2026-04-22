@@ -19,18 +19,6 @@ We analyze:
 
 ---
 
-## Installation
-
-pip install numpy matplotlib
-
----
-
-## Usage
-
-python main.py
-
----
-
 ## Physical Interpretation
 
 * Increasing nucleation rate increases the number of aggregates but reduces their average size.
