@@ -19,6 +19,12 @@ We analyze:
 
 ---
 
+Developed as part of the MSc course:
+
+**Physics of Molecular Diseases**  
+Niels Bohr Institute — University of Copenhagen (Prof. Ala Trusina)
+
+
 ## Physical Interpretation
 
 * Increasing nucleation rate increases the number of aggregates but reduces their average size.
