@@ -19,12 +19,6 @@ We analyze:
 
 ---
 
-Developed as part of the MSc course:
-
-**Physics of Molecular Diseases**  
-Niels Bohr Institute — University of Copenhagen (Prof. Ala Trusina)
-
-
 ## Physical Interpretation
 
 * Increasing nucleation rate increases the number of aggregates but reduces their average size.
@@ -51,3 +45,7 @@ The basic model (nucleation + elongation) produces sigmoidal growth and large ag
 The full model exhibits a balance between all processes, resulting in a dynamic steady state with stable but broad distributions. The simulations are in qualitative agreement with theoretical expectations and demonstrate how microscopic mechanisms influence macroscopic observables.
 
 ---
+Developed as part of the MSc course:
+
+**Physics of Molecular Diseases**  
+Niels Bohr Institute — University of Copenhagen (Prof. Ala Trusina)
