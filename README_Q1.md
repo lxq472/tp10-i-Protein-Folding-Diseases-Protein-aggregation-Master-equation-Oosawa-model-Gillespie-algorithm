@@ -1,6 +1,5 @@
 # Oosawa Model — Gillespie Implementation
 
-**Course:** Physics of Molecular Diseases — Week 1  
 **Question 1:** Write code implementing the Oosawa model using the Gillespie approach.
 
 ---
@@ -10,15 +9,6 @@
 This script implements the **Oosawa model** for protein aggregation using the **Gillespie stochastic algorithm**. The Oosawa model describes two fundamental processes: nucleation (slow) and association (fast), which together reproduce the characteristic sigmoidal kinetics observed experimentally in protein misfolding diseases.
 
 The Gillespie algorithm treats each reaction as a discrete stochastic event, making it ideal when molecule numbers are small — exactly the regime where ODEs fail and fluctuations dominate.
-
----
-
-## File
-
-| File | Description |
-|------|-------------|
-| `oosawa_gillespie.py` | Gillespie simulation of the Oosawa model with plots |
-| `oosawa_gillespie.png` | Output figure: M(t), m(t) and P(t) time evolution |
 
 ---
 
@@ -97,38 +87,6 @@ All parameters are defined at the top of the script and straightforward to modif
 
 ---
 
-## Dependencies
-
-```
-numpy
-matplotlib
-```
-
-Install with:
-```bash
-pip install numpy matplotlib
-```
-
----
-
-## Usage
-
-```bash
-python oosawa_gillespie.py
-```
-
-The script prints a summary to the terminal and saves `oosawa_gillespie.png` in the current directory:
-
-```
-Running Gillespie simulation of Oosawa model
-  kn = 1e-04,  ka = 1e-02,  nc = 2,  m0 = 200
-  Simulation ended at t = 43.10
-  Final state:  m = 0,  P = 15,  M = 200
-  Total events simulated: 185
-```
-
----
-
 ## Background
 
 The Gillespie algorithm (Gillespie, 1977) is the exact stochastic simulation method for well-mixed chemical systems. It is equivalent to solving the Chemical Master Equation, which describes the time evolution of the probability distribution over discrete molecular states. When molecule counts are large, Gillespie results converge to the ODE solution — but for small counts (as during the nucleation lag phase), stochastic fluctuations are essential and ODEs miss the biology.
@@ -136,4 +94,4 @@ The Gillespie algorithm (Gillespie, 1977) is the exact stochastic simulation met
 **Key references:**  
 - Gillespie, D.T. (1977). *J. Phys. Chem.*, 81(25), 2340–2361 — original algorithm  
 - Oosawa & Asakura (1975) — polymer nucleation model  
-- Lecture notes: Trusina, Niels Bohr Institute (2015)
+- Lecture notes for the course "Physics of Molecular Diseases", Prof. Ala Trusina, Niels Bohr Institute, 2020
